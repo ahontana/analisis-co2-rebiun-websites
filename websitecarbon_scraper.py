@@ -471,7 +471,8 @@ def evaluate_urls() -> None:
     """
     urls_to_check = [
         "https://www.uaoceu.es/biblioteca",
-        "https://biblioteca.uah.es/"
+        "https://biblioteca.uah.es/",
+        #...  
     ]
 
     # Cargar URLs ya procesadas para poder reanudar ejecuciones interrumpidas
