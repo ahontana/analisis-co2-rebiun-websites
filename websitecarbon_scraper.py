@@ -1,7 +1,10 @@
 """
 websitecarbon_scraper.py
 ------------------------
-Automatiza el análisis de huella de carbono de un conjunto de URLs introducidas, utilizando el servicio websitecarbon.com. Para cada URL:
+Automatiza el análisis de huella de carbono de un conjunto de URLs introducidas, utilizando el servicio websitecarbon.com. 
+
+Para cada URL:
+
   - Navega hacia websitecarbon.com mediante Selenium.
   - Introduce una URL de la lista y espera a que se completen los resultados.
   - Extrae los valores de CO2 (gramos), litros de agua y energía desde el diccionario embedido en el header, que se corresponde con los valores que muestra en el body.
